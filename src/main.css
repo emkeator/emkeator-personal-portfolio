@@ -1,0 +1,302 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower|Open+Sans");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+html {
+  box-sizing: border-box; }
+
+*, *:before, *:after {
+  box-sizing: inherit; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+#Work {
+  width: 100vw;
+  background-color: #fff;
+  margin-bottom: 50px; }
+  #Work header {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center; }
+    #Work header img {
+      position: absolute;
+      top: -20px;
+      left: 0;
+      width: 100vw; }
+    #Work header h1 {
+      width: 75vw;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      font-family: "Indie Flower", serif;
+      font-size: 2.5rem;
+      z-index: 1; }
+  #Work section {
+    width: 100vw;
+    overflow: scroll;
+    display: none; }
+  #Work .flexContainer {
+    height: 400px;
+    width: calc((4 * 600px) + (5 * 50px));
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  #Work .project {
+    width: 600px !important;
+    height: 350px;
+    margin: 0 50px;
+    background-color: #000;
+    color: #fff; }
+    #Work .project a {
+      color: #fff;
+      text-decoration: none; }
+    #Work .project h2 {
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Open Sans", sans-serif; }
+    #Work .project div {
+      width: 100%;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    #Work .project img {
+      width: 275px;
+      height: 184px;
+      margin-right: 8px;
+      border: 1px solid lightgrey;
+      cursor: pointer; }
+    #Work .project p {
+      width: 275px;
+      height: 184px;
+      margin-left: 8px;
+      padding: 5px 7px;
+      letter-spacing: 0.05em;
+      line-height: 1.2em;
+      font-family: "Open Sans", sans-serif;
+      font-size: 90%; }
+      #Work .project p ul {
+        margin: 10px 0; }
+      #Work .project p li {
+        margin-top: 10px; }
+
+@media (min-width: 650px) {
+  #Work header h1 {
+    font-size: 4rem; } }
+
+#EduExperience {
+  width: 100vw;
+  background-color: #fff;
+  margin-bottom: 50px; }
+  #EduExperience header {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center; }
+    #EduExperience header img {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 100vw; }
+    #EduExperience header h1 {
+      width: 75vw;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      font-family: "Indie Flower", serif;
+      font-size: 2.5rem;
+      z-index: 1; }
+  #EduExperience section {
+    width: 100vw;
+    overflow: scroll;
+    display: none; }
+  #EduExperience .flexContainer {
+    height: 350px;
+    width: calc((4 * 600px) + (5 * 50px));
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  #EduExperience .project {
+    width: 600px !important;
+    height: 300px;
+    margin: 0 50px;
+    background-color: #000;
+    color: #fff; }
+    #EduExperience .project h2 {
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Open Sans", sans-serif; }
+    #EduExperience .project div {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    #EduExperience .project img {
+      width: 250px;
+      height: 167px;
+      margin-right: 15px;
+      border: 1px solid black; }
+    #EduExperience .project p {
+      width: 250px;
+      height: 167px;
+      margin-left: 15px;
+      border: 1px solid black; }
+
+@media (min-width: 650px) {
+  #EduExperience header h1 {
+    font-size: 4rem; } }
+
+#About {
+  width: 100vw;
+  background-color: #fff;
+  margin-bottom: 25px; }
+  #About header {
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center; }
+    #About header img {
+      position: absolute;
+      top: 0px;
+      left: 0;
+      width: 100vw; }
+    #About header h1 {
+      width: 75vw;
+      height: 120px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #000;
+      color: #fff;
+      text-align: center;
+      font-family: "Indie Flower", serif;
+      font-size: 2.5rem;
+      z-index: 1; }
+  #About section {
+    width: 100vw;
+    overflow: scroll;
+    display: none; }
+  #About .flexContainer {
+    height: 350px;
+    width: calc((4 * 600px) + (5 * 50px));
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+  #About .project {
+    width: 600px !important;
+    height: 300px;
+    margin: 0 50px;
+    background-color: #000;
+    color: #fff; }
+    #About .project h2 {
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 2rem;
+      font-family: "Open Sans", sans-serif; }
+    #About .project div {
+      width: 100%;
+      height: 250px;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+    #About .project img {
+      width: 250px;
+      height: 167px;
+      margin-right: 15px;
+      border: 1px solid black; }
+    #About .project p {
+      width: 250px;
+      height: 167px;
+      margin-left: 15px;
+      border: 1px solid black; }
+
+@media (min-width: 650px) {
+  #About header h1 {
+    font-size: 4rem; } }
+
+#Footer {
+  width: 100vw;
+  height: 75px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  #Footer img {
+    height: 50px;
+    width: 50px; }
+
+.App .mainHeader {
+  width: 100vw;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-family: "Indie Flower", serif;
+  font-size: 5rem; }
+  .App .mainHeader h2 {
+    font-family: "Indie Flower", serif;
+    font-size: 2rem;
+    margin-top: 15px; }
