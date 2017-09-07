@@ -10,14 +10,19 @@ class Work extends Component {
     render() {
         return(
             <main id="Work">
-                <header onClick={() => $('#Work section').toggle(400)}>
+                <header onClick={() => {
+                        $('#Work section').toggle(400);
+                        $('#EduExperience section').hide(400);
+                        $('#About section').hide(400);                        
+                    }}>
                     <img src={loops}/> 
                     <h1>My Work</h1>
                 </header>
                 <section>
                     <div className="flexContainer">
                         <div className="project">
-                            <h2>Ballet SLC - Personally Developed Full-Stack Responsive Web App</h2>
+                            <h2>Ballet SLC</h2>
+                            <h3>Personally Developed Full-Stack Responsive Web App</h3>
                             <div>
                                 <a href="https://youtu.be/oHwqbTwmo_c" target="_blank">
                                     <img src={balletslc} alt="emily keator project"/>
@@ -32,7 +37,8 @@ class Work extends Component {
                             </div>
                         </div>
                         <div className="project">
-                            <a href="https://emkeator.github.io/lonely-mountain-winery-project-site/#/" target="_blank"><h2>Lonely Mountain Winery - Personally Developed Web App</h2></a>
+                            <a href="https://emkeator.github.io/lonely-mountain-winery-project-site/#/" target="_blank"><h2>Lonely Mountain Winery</h2></a>
+                            <h3>Personally Developed Web App</h3>
                             <div>
                                 <a href="https://youtu.be/EGUSxEn0syA" target="_blank">
                                     <img src={lonelymtn} alt="emily keator project"/>
@@ -47,7 +53,8 @@ class Work extends Component {
                             </div>
                         </div>
                         <div className="project">
-                            <a href="https://emkeator.github.io/frontend-nanodegree-maps-project/" target="_blank"><h2>Utah Parks Map - Personally Developed Responsive Web App</h2></a>
+                            <a href="https://emkeator.github.io/frontend-nanodegree-maps-project/" target="_blank"><h2>Utah Parks Map</h2></a>
+                            <h3>Personally Developed Responsive Web App</h3>
                             <div>
                                 <a href="https://youtu.be/fpQ9qUgUO1E" target="_blank">
                                     <img src={utParks} alt="emily keator project"/>

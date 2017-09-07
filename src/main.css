@@ -97,7 +97,12 @@ table {
     height: 350px;
     margin: 0 50px;
     background-color: #000;
-    color: #fff; }
+    color: #fff;
+    padding-top: 10px; }
+    #Work .project:hover {
+      background-color: #753535; }
+      #Work .project:hover h3 {
+        color: #000; }
     #Work .project a {
       color: #fff;
       text-decoration: none; }
@@ -106,11 +111,18 @@ table {
       height: 50px;
       padding: 5px 10px;
       text-align: center;
-      font-size: 2rem;
+      font-size: 2.5rem;
+      font-family: "Indie Flower", serif; }
+    #Work .project h3 {
+      width: 100%;
+      padding: 5px 10px;
+      text-align: center;
+      color: #753535;
+      font-size: 1.2rem;
       font-family: "Open Sans", sans-serif; }
     #Work .project div {
       width: 100%;
-      height: 300px;
+      height: 250px;
       display: flex;
       justify-content: center;
       align-items: center; }
@@ -170,39 +182,70 @@ table {
     display: none; }
   #EduExperience .flexContainer {
     height: 350px;
-    width: calc((4 * 600px) + (5 * 50px));
+    width: 3000px;
     display: flex;
     justify-content: space-around;
     align-items: center; }
-  #EduExperience .project {
-    width: 600px !important;
-    height: 300px;
-    margin: 0 50px;
+  #EduExperience #skylines {
+    width: 3000px; }
+  #EduExperience .eduEx {
+    width: 300px;
+    height: 320px;
     background-color: #000;
     color: #fff; }
-    #EduExperience .project h2 {
+    #EduExperience .eduEx:hover {
+      background-color: #753535; }
+      #EduExperience .eduEx:hover .second,
+      #EduExperience .eduEx:hover .secondH2 {
+        color: #000; }
+    #EduExperience .eduEx .headers {
+      width: 300px;
+      padding-top: 10px; }
+    #EduExperience .eduEx ul {
+      width: 300px;
+      padding: 10px 15px;
+      font-size: 0.9rem;
+      font-family: "Open Sans", sans-serif;
+      text-align: center;
+      line-height: 1.2em;
+      letter-spacing: 0.05em; }
+      #EduExperience .eduEx ul a {
+        color: #fff;
+        text-decoration: none; }
+      #EduExperience .eduEx ul li {
+        margin-top: 10px; }
+    #EduExperience .eduEx h2 {
       width: 100%;
-      height: 50px;
       padding: 5px 10px;
       text-align: center;
-      font-size: 2rem;
+      font-size: 1.2rem;
       font-family: "Open Sans", sans-serif; }
-    #EduExperience .project div {
+    #EduExperience .eduEx .secondH2 {
+      color: #753535;
+      font-size: 1.5rem;
+      font-family: "Indie Flower", serif; }
+    #EduExperience .eduEx h3 {
       width: 100%;
-      height: 250px;
-      display: flex;
-      justify-content: center;
-      align-items: center; }
-    #EduExperience .project img {
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 1rem;
+      font-family: "Open Sans", sans-serif; }
+    #EduExperience .eduEx .second {
+      color: #753535;
+      font-size: 1.2rem;
+      font-family: "Indie Flower", serif; }
+  #EduExperience #born {
+    width: 250px;
+    margin-right: 20px; }
+    #EduExperience #born .headers {
       width: 250px;
-      height: 167px;
-      margin-right: 15px;
-      border: 1px solid black; }
-    #EduExperience .project p {
+      padding-top: 100px; }
+    #EduExperience #born h1 {
       width: 250px;
-      height: 167px;
-      margin-left: 15px;
-      border: 1px solid black; }
+      padding-top: 10px;
+      font-family: "Indie Flower", serif;
+      font-size: 3rem;
+      text-align: center; }
 
 @media (min-width: 650px) {
   #EduExperience header h1 {
@@ -239,40 +282,60 @@ table {
     overflow: scroll;
     display: none; }
   #About .flexContainer {
-    height: 350px;
-    width: calc((4 * 600px) + (5 * 50px));
+    height: 400px;
+    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center; }
   #About .project {
     width: 600px !important;
-    height: 300px;
+    height: 350px;
     margin: 0 50px;
     background-color: #000;
-    color: #fff; }
-    #About .project h2 {
-      width: 100%;
-      height: 50px;
-      padding: 5px 10px;
-      text-align: center;
-      font-size: 2rem;
-      font-family: "Open Sans", sans-serif; }
-    #About .project div {
+    color: #fff;
+    padding-top: 10px; }
+    #About .project:hover {
+      background-color: #753535; }
+      #About .project:hover h3 {
+        color: #000; }
+    #About .project .skills {
       width: 100%;
       height: 250px;
       display: flex;
       justify-content: center;
       align-items: center; }
-    #About .project img {
-      width: 250px;
-      height: 167px;
-      margin-right: 15px;
-      border: 1px solid black; }
-    #About .project p {
-      width: 250px;
-      height: 167px;
-      margin-left: 15px;
-      border: 1px solid black; }
+      #About .project .skills img {
+        width: 550px;
+        margin: 0;
+        border: none; }
+    #About .project ul {
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+      padding: 0px 30px; }
+    #About .project li {
+      font-size: 1.5rem;
+      font-family: "Indie Flower", serif;
+      margin-top: 8px;
+      line-height: 1.15em; }
+      #About .project li span {
+        margin-left: 5px;
+        font-size: 1.1rem;
+        font-family: "Open Sans", sans-serif; }
+    #About .project h2 {
+      width: 100%;
+      height: 50px;
+      padding: 5px 10px;
+      text-align: center;
+      font-size: 2.5rem;
+      font-family: "Indie Flower", serif; }
+    #About .project h3 {
+      width: 100%;
+      padding: 5px 10px;
+      text-align: center;
+      color: #753535;
+      font-size: 1.2rem;
+      font-family: "Open Sans", sans-serif; }
 
 @media (min-width: 650px) {
   #About header h1 {
